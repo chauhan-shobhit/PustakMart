@@ -1,0 +1,38 @@
+{
+  "name": "pustakmart",
+  "version": "1.0.0",
+  "description": "Shobhit's App",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/AuthServices/server",
+    "server": "nodemon backend/AuthServices/server",
+    "client": "npm start --prefix frontend",
+    "app": "concurrently \"npm run client\" \"npm run server\"",
+    "data:import": "node bbackend/AuthServices/seeder",
+    "data:destroy": "node backend/AuthServices/seeder -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chauhan-shobhit/PustakMart.git"
+  },
+  "author": "Shobhit Chauhan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chauhan-shobhit/PustakMart/issues"
+  },
+  "homepage": "https://github.com/chauhan-shobhit/PustakMart#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "http-proxy-middleware": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.5"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}

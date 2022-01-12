@@ -1,0 +1,82 @@
+[
+    {
+   "id": 1,
+   "name": "Verity",
+   "description": "A sublimely creepy psychological thriller from #1 New York Times bestselling author Colleen Hoover (Tarryn Fisher, New York Times bestselling author).",
+   "availabilityStatus": 1000,
+   "listPrice": "16.99",
+   "salePrice": "13.99",
+   "skuType": "book",
+   "bopusEligibleMessage": "storeNotAvailable",
+   "imageUrl": "/images/verity-colleen-hoover.jpg",
+   "rating": 4,
+   "numReviews": 1,
+   "reviews": [],
+   "author": "Colleen Hoover",
+   "Format": "Paperback"
+},
+{
+   
+   "name": "The Wish",
+   "description": "From the author of The Longest Ride and The Return comes a novel about the enduring legacy of first love, and the decisions that haunt us forever.",
+   "availabilityStatus": 80,
+   "listPrice": "28.00",
+   "salePrice": "14.00",
+   "skuType": "book",
+   "bopusEligibleMessage": "storeNotAvailable",
+   "imageUrl": "/images/thewish-nicholas-sparks.jpg",
+   "rating": 4,
+   "numReviews": 1,
+   "reviews": [],
+   "author": "Nicholas Sparks",
+   "format": "Hardcover"
+},
+{
+   
+   "name": "Anthem",
+   "description": "This is a bold and exciting novel. It is the sound of America having a nervous breakdown. We found ourselves reading and re-reading passages because they were too good to only read once. 2022 Fiction starts off here on a great foot.",
+   "availabilityStatus": 80,
+   "listPrice": "28.00",
+   "salePrice": "14.00",
+   "skuType": "book",
+   "bopusEligibleMessage": "storeNotAvailable",
+   "imageUrl": "/images/anthem-noah-hawley.jpg",
+   "rating": 4,
+   "numReviews": 1,
+   "reviews": [],
+   "author": "Noah Hawley",
+   "format": "Hardcover"
+},
+{
+   
+   "name": "The Maid",
+   "description": "This is a bold and exciting novel. It is the sound of America having a nervous breakdown. We found ourselves reading and re-reading passages because they were too good to only read once. 2022 Fiction starts off here on a great foot.",
+   "availabilityStatus": 89,
+   "listPrice": "27.00",
+   "salePrice": "22.95",
+   "skuType": "book",
+   "bopusEligibleMessage": "storeNotAvailable",
+   "imageUrl": "/images/themaid-nita-prose.jpg",
+   "rating": 3,
+   "numReviews": 1,
+   "reviews": [],
+   "author": "Nita Prose",
+   "format": "Hardcover"
+},
+{
+   
+   "name": "Snow Day !",
+   "description": "A Step 1 reader to welcome winter, featuring the family from Pumpkin Day! and Apple Picking",
+   "availabilityStatus": 89,
+   "listPrice": "7.00",
+   "salePrice": "2.95",
+   "skuType": "book",
+   "bopusEligibleMessage": "storeNotAvailable",
+   "imageUrl": "/images/snowday-candice-ransom.jpg",
+   "rating": 3,
+   "numReviews": 1,
+   "reviews": [],
+   "author": "Candice Ransom",
+   "format": "Hardcover"
+}
+]

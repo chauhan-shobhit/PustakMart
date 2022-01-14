@@ -50,6 +50,7 @@ public class ProductController {
     @GetMapping("/")
     public ResponseEntity<List<Product>> getProducts(@RequestParam(required = false) String keyword) {
 
+        System.out.println("call received in getProducts");
         if (keyword == null || keyword.trim().isBlank()) {
             return new ResponseEntity<>(productService.getAllProducts(), HttpStatus.OK);
         } else {
@@ -58,9 +59,9 @@ public class ProductController {
 
     }
 
-    @GetMapping("/featured")
+    @GetMapping("/top")
     public ResponseEntity<List<Product>> getTopFeaturedProducts() {
-
+        System.out.println("call received in getTopFeaturedProducts");
         return new ResponseEntity<>(productService.getTopFeaturedProducts(), HttpStatus.OK);
 
     }

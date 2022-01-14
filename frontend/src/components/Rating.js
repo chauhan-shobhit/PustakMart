@@ -41,7 +41,7 @@ const Rating = ({value, text, color}) => {
 }
 
 Rating.defaultProps = {
-    color: "grey"
+    color: "orange"
 }
 
 Rating.propTypes = {

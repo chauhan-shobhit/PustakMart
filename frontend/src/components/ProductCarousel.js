@@ -16,7 +16,8 @@ const ProductCarousel = () => {
   const imageUrls = ['/images/Gateway_Quote_A2_01-11.jpeg', 
                 '/images/Gateway_Quote_A1_01-11.jpeg',
               '/images/Gateway_Quote_A2_12-21.jpeg',
-            '/images/Gateway_Quote_A1_01-04.jpeg']
+            '/images/Gateway_Quote_A1_01-04.jpeg',
+          '/images/new_Image.png']
 
   useEffect(() => {
     dispatch(listTopProducts())

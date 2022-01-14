@@ -10,6 +10,7 @@ import { useNavigate } from 'react-router-dom'
 
 
 
+
 const divStyle = {
 
   width: '1500px',

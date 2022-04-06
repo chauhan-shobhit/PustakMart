@@ -16,7 +16,6 @@ import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import io.micrometer.core.ipc.http.HttpSender.Response;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
